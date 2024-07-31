@@ -1,0 +1,21 @@
+In the context of SQL and database systems, here's an explanation of each of these data types:
+
+1. **INT**: Represents a standard integer value, typically 4 bytes in size.
+   
+2. **SMALLINT**: Stores smaller integer values than `INT`, usually 2 bytes in size.
+
+3. **TINYINT**: Holds a very small integer value, often 1 byte in size.
+
+4. **MEDIUMINT**: Accommodates medium-sized integer values, typically 3 bytes in size.
+
+5. **BIGINT**: Stores large integer values, larger than `INT`, usually 8 bytes in size.
+
+6. **DECIMAL (n,d)**: A fixed-point numeric type where `n` represents the total number of digits that can be stored (precision) and `d` represents the number of digits to the right of the decimal point (scale). It's commonly used for financial calculations where precision is crucial.
+
+7. **FLOAT**: Represents a floating-point number with single precision. It stores approximate numeric values and requires 4 bytes of storage.
+
+8. **DOUBLE**: Represents a floating-point number with double precision, offering higher precision than `FLOAT`. It typically requires 8 bytes of storage.
+
+9. **BIT**: Represents a fixed-length bit field. It's commonly used to store boolean values (true/false, 1/0) or other data where each bit represents a specific attribute or flag. The storage size depends on the number of bits specified, such as BIT(1), BIT(2), etc.
+
+These data types provide flexibility in choosing the appropriate storage size and precision based on the requirements of your database schema and the nature of data being stored.
